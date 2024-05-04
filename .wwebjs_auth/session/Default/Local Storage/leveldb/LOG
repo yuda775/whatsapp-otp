@@ -1,3 +1,5 @@
-2024/05/04-14:39:06.417 291d3 Reusing MANIFEST /mnt/Data/Dev/projek/whatsapp-otp/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
-2024/05/04-14:39:06.417 291d3 Recovering log #3
-2024/05/04-14:39:06.417 291d3 Reusing old log /mnt/Data/Dev/projek/whatsapp-otp/.wwebjs_auth/session/Default/Local Storage/leveldb/000003.log 
+2024/05/04-14:46:06.543 29cbc Reusing MANIFEST /mnt/Data/Dev/projek/whatsapp-otp/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/04-14:46:06.543 29cbc Recovering log #3
+2024/05/04-14:46:06.543 29cbc Level-0 table #3: started
+2024/05/04-14:46:08.844 29cbc Level-0 table #3: 22497 bytes OK
+2024/05/04-14:46:08.896 29cbc Delete type=0 #3

@@ -4,7 +4,6 @@ import morgan from "morgan";
 import helmet from "helmet";
 import whatsapp from "whatsapp-web.js";
 import qrcode from "qrcode-terminal";
-import ServerlessHttp from "serverless-http";
 
 const { Client, LocalAuth } = whatsapp;
 
