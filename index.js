@@ -75,5 +75,3 @@ app.post("/send-whatsapp-message", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-export const handler = ServerlessHttp(app);
