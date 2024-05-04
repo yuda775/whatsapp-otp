@@ -35,6 +35,10 @@ app.use(morgan("dev"));
 app.use(helmet());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Bank Sampah Whatsapp OTP API");
+});
+
 app.post("/send-whatsapp-message", async (req, res) => {
   try {
     let { phoneNumber, otpMessage } = req.body;
