@@ -26,7 +26,7 @@ client.on("qr", (qr) => {
 
 client.initialize();
 
-const app = express();
+export const app = express();
 const port = 3000;
 
 app.use(cors());
@@ -78,5 +78,3 @@ app.post("/send-whatsapp-message", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-export default app;
