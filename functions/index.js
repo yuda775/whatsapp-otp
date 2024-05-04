@@ -4,6 +4,7 @@ import morgan from "morgan";
 import helmet from "helmet";
 import whatsapp from "whatsapp-web.js";
 import qrcode from "qrcode-terminal";
+import ServerlessHttp from "serverless-http";
 
 const { Client, LocalAuth } = whatsapp;
 
@@ -75,6 +76,8 @@ app.post("/send-whatsapp-message", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+const handler = ServerlessHttp(app);
+
+module.exports.handler = async (event, context) => {
+  return await handler(event, context);
+};
